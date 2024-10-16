@@ -53,3 +53,20 @@ main {
   width: 60%;
   height: 2.5rem;
 }
+
+.quote-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.quote-face {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.quote-text {
+  margin: 0;
+  text-align: left;
+  font-family: roboto;
+}
