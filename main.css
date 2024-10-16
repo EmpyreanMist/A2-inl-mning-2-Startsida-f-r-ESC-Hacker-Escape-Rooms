@@ -45,7 +45,9 @@ main {
 
 .challenge-button {
   background-color: #8acfe5;
+  border-radius: 5px;
   font-size: 24px;
+  font-weight: 700;
   font-family: roboto;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -81,23 +83,31 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .challenge-container h2 {
   text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  right: 1rem;
 }
 
 .challenge-card {
   display: flex;
   width: 75%;
-  height: 25rem;
+  height: 27rem;
   border-radius: 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
+}
+
+.star-container {
+  position: relative;
+  right: 1.8rem;
 }
 
 .card-picture {
@@ -110,6 +120,34 @@ main {
 
 .book-button {
   background-color: #e3170a;
+  border-radius: 5px;
   color: #ffffff;
   border: none;
+  height: 2rem;
+  width: 7rem;
+  position: relative;
+  top: 1rem;
+  left: 5rem;
+}
+
+.hacker-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #011827;
+  height: 35vh;
+}
+
+.hacker-bio p {
+  color: white;
+  width: 80%;
+}
+
+.hacker-bio button {
+  background-color: #011827;
+  color: white;
+  border: solid #8acfe5 1px;
+  height: 2.5rem;
+  width: 60%;
 }
