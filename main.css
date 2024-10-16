@@ -84,6 +84,7 @@ main {
 
 .challenge-container h2 {
   text-align: center;
+  width: 90%;
   margin-bottom: 2rem;
   position: relative;
   right: 1rem;
