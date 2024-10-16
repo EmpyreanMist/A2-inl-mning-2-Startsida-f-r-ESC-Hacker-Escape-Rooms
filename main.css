@@ -92,6 +92,10 @@ main {
   margin-bottom: 2rem;
 }
 
+.challenge-card p {
+  width: 90%;
+}
+
 .challenge-container h2 {
   text-align: center;
   width: 90%;
@@ -191,4 +195,35 @@ main {
   border: none;
   width: 60%;
   height: 2.5rem;
+}
+
+.girl-coder {
+  width: 100%;
+  height: 35vh;
+}
+
+.play-online {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+
+.play-online h2,
+.play-online p {
+  width: 90%;
+}
+
+.see-challenges {
+  background: #e3170a;
+  color: white;
+  border: none;
+  width: 60%;
+  height: 2.5rem;
+}
+
+footer {
+  background-color: #011827;
+  color: #ffffff;
 }
