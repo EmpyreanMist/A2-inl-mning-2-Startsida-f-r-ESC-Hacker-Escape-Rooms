@@ -156,3 +156,8 @@ main {
   border: 1px solid #8acfe5;
   width: 60%;
 }
+
+.coders-pic {
+  width: 100%;
+  height: 35vh;
+}
