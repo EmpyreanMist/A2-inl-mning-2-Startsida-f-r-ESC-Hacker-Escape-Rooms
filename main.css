@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.container {
+  height: 100vh;
+}
+
 header {
   width: 100%;
   height: 144px;
@@ -15,10 +19,37 @@ header {
 h1 {
   color: #ffffff;
   font-family: Roboto;
+  font-size: 24px;
   width: 20%;
   padding-left: 10px;
 }
 
 .logo {
-  padding-left: 5%;
+  padding-left: 1rem;
+}
+
+/* .hacker-picture-container {
+} */
+
+.hacker-picture {
+  width: 100%;
+  height: 35vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge-button {
+  background-color: #8acfe5;
+  font-size: 24px;
+  font-family: roboto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: none;
+  width: 60%;
+  height: 2.5rem;
 }
