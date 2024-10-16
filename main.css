@@ -18,7 +18,7 @@ header {
 
 h1 {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   width: 20%;
   padding-left: 10px;
@@ -27,9 +27,6 @@ h1 {
 .logo {
   padding-left: 1rem;
 }
-
-/* .hacker-picture-container {
-} */
 
 .hacker-picture {
   width: 100%;
@@ -46,11 +43,10 @@ main {
 .challenge-button {
   background-color: #8acfe5;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 15px;
   font-weight: 700;
-  font-family: roboto;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  font-family: Roboto, sans-serif;
+  margin: 2rem 0 1.5rem;
   border: none;
   width: 60%;
   height: 2.5rem;
@@ -75,7 +71,7 @@ main {
 .quote-text {
   margin: 0;
   text-align: left;
-  font-family: roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .challenge-container {
@@ -94,15 +90,23 @@ main {
 }
 
 .challenge-card {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
   display: flex;
-  width: 75%;
-  height: 27rem;
-  border-radius: 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   overflow: hidden;
+}
+
+.challenge-card h2,
+.quote-text,
+.star-text {
+  font-size: 1rem;
+  padding: 0 1rem;
 }
 
 .star-container {
@@ -112,6 +116,13 @@ main {
 
 .card-picture {
   width: 100%;
+  height: auto;
+}
+
+.star {
+  width: 10%;
+  max-width: 30px;
+  height: auto;
 }
 
 .star-text {
@@ -119,15 +130,9 @@ main {
 }
 
 .book-button {
-  background-color: #e3170a;
-  border-radius: 5px;
-  color: #ffffff;
-  border: none;
-  height: 2rem;
-  width: 7rem;
-  position: relative;
-  top: 1rem;
-  left: 5rem;
+  width: 80%;
+  margin: 1rem auto;
+  height: 2.5rem;
 }
 
 .hacker-bio {
@@ -141,13 +146,12 @@ main {
 
 .hacker-bio p {
   color: white;
-  width: 80%;
+  width: 75%;
 }
 
 .hacker-bio button {
   background-color: #011827;
   color: white;
-  border: solid #8acfe5 1px;
-  height: 2.5rem;
+  border: 1px solid #8acfe5;
   width: 60%;
 }
