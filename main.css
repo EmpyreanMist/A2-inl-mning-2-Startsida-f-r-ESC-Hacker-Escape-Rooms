@@ -161,3 +161,24 @@ main {
   width: 100%;
   height: 35vh;
 }
+
+.play-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+
+.play-friends h2,
+.play-friends p {
+  width: 90%;
+}
+
+.book-on-site-btn {
+  background: #e3170a;
+  color: white;
+  border: none;
+  width: 60%;
+  height: 2.5rem;
+}
