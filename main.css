@@ -116,10 +116,12 @@ main {
 
 .card-wrapper {
   display: flex;
+  width: 100%;
   gap: 1rem;
   overflow-x: auto;
   padding: 1rem;
   scroll-snap-type: x mandatory;
+  box-sizing: border-box;
 }
 
 .challenge-card h2,
