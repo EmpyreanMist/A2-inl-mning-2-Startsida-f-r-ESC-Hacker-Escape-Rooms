@@ -7,6 +7,10 @@
   --white: #ffffff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -191,6 +195,7 @@ main {
   justify-content: center;
   flex-direction: column;
   background-color: #011827;
+  height: 25rem;
 }
 
 .hacker-bio p {
@@ -222,17 +227,29 @@ main {
   height: 20rem;
 }
 
-.play-friends h2,
+.play-friends h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 .play-friends p {
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .book-on-site-btn {
   background: var(--red);
   color: var(--white);
   border: none;
+  font-size: 20px;
+  font-weight: 700;
   width: 60%;
   height: 2.5rem;
+  align-self: flex-start;
+  margin-top: 15%;
+  margin-left: 5%;
 }
 
 .girl-coder {
@@ -247,20 +264,48 @@ main {
   height: 20rem;
 }
 
+.play-online h2 {
+  margin-top: -5%;
+}
+
 .play-online h2,
 .play-online p {
   width: 90%;
 }
 
-.see-challenges {
+.see-challenges-btn {
   background: var(--red);
   color: var(--white);
   border: none;
+  font-size: 20px;
+  font-weight: 700;
+  align-self: flex-start;
   width: 60%;
   height: 2.5rem;
+  margin-left: 5%;
 }
 
 footer {
   background-color: var(--darkBlue);
   color: var(--white);
 }
+
+footer h3,
+footer p,
+footer .first-pre,
+footer pre {
+  width: 90%;
+  margin-left: 5%;
+}
+
+footer .second-pre {
+  padding-bottom: 2rem;
+}
+
+footer .first-h3 {
+  padding-top: 2rem;
+}
+
+/* @media screen and (max-width: ) {
+  
+} */
