@@ -119,14 +119,13 @@ main {
   line-height: 37.5px;
   width: 90%;
   margin-bottom: 2rem;
-  position: relative;
-  right: 1rem;
 }
 
 .challenge-card {
   flex: 0 0 auto;
   width: 90%;
   max-width: 600px;
+  height: 446px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   border-radius: 1rem;
   overflow: hidden;
@@ -142,27 +141,31 @@ main {
   box-sizing: border-box;
 }
 
-.challenge-card h2,
+.challenge-card h2 {
+  font-size: 28px;
+  line-height: 32.81px;
+}
+
+/* .challenge-card h2,
 .star-text {
   font-size: 1rem;
   padding: 0 1rem;
-}
+} */
 
 .star-container {
-  position: relative;
-  right: 1.8rem;
+  display: flex;
+  align-items: center;
 }
 
 .card-picture {
   width: 100%;
-  height: auto;
+  height: 219px;
 }
 
-.star {
-  width: 10%;
-  max-width: 30px;
-  height: auto;
-}
+/* .star {
+  height: 26px;
+  width: 23.08px;
+} */
 
 .star-text {
   display: inline;
