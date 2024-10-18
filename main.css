@@ -90,7 +90,7 @@ main {
   line-height: 18.75px;
 }
 
-.quote-container {
+.quote1 {
   display: flex;
   align-items: flex-start;
   width: 90%;
@@ -98,7 +98,11 @@ main {
   margin-bottom: 3rem;
 }
 
-.quote-container > div {
+.quote2 {
+  display: none;
+}
+
+.quote1 > div {
   display: flex;
   flex-direction: column;
 }
@@ -109,7 +113,7 @@ main {
   flex-shrink: 0;
 }
 
-.quote-container small {
+.quote1 small {
   text-align: left;
   font-size: 18px;
   line-height: 21.09px;
@@ -329,13 +333,41 @@ footer .first-h3 {
   }
 
   nav {
-    display: block;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 1.5rem;
   }
+
   nav a {
     color: white;
     font-size: 24px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-decoration: none;
   }
+
   nav a:hover {
     color: var(--lightBlue);
+  }
+
+  .quote-container {
+    display: flex;
+    width: 50%;
+  }
+
+  .quote2 {
+    display: flex;
+  }
+
+  /* Semanthically things above */
+
+  .card-wrapper {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .challenge-card {
+    width: 25rem;
   }
 }
