@@ -151,6 +151,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   border-radius: 1rem;
   overflow: hidden;
+  height: 30rem;
 }
 
 .card-wrapper {
@@ -169,6 +170,7 @@ main {
   text-align: left;
   margin-left: 5%;
   margin-bottom: 0;
+  margin-top: 3%;
 }
 
 .star-container {
@@ -187,9 +189,17 @@ main {
 }
 
 .book-button {
-  width: 80%;
-  margin: 1rem auto;
-  height: 2.5rem;
+  background-color: var(--red);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.75rem 0;
+  border: none;
+  border-radius: 5px;
+  width: 45%;
+  max-width: 500px;
+  margin-left: 50%;
+  display: block;
 }
 
 .hacker-bio {
